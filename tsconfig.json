@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    // Main properties
+
+    "target": "es5",
+    "sourceMap": true,
+    "inlineSources": true,
+    "lib": ["dom", "DOM.Iterable", "esnext"],
+    "extendedDiagnostics": true,
+
+    // Js properties
+
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react",
+
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ],
+
+    // Modules
+
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+
+    // Helpers/linters
+
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "keyofStringsOnly": true,
+
+    // Advance
+
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
